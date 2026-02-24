@@ -50,6 +50,14 @@ Currently, the business does not know:
 
 ## Data Transformation & Cleaning
 The dataset was prepared to ensure accuracy and consistency before analysis.
+Power Query was used to clean and prepare the dataset for analysis.
+Key steps included:
+- Data Separation:The original dataset contained both **marketing** and **customer** information.
+  Using **Power Query**, the dataset was **split into two seperate tables**:
+  - **Marketing dataset**
+  - **Customer Analytics dataset**
+    
+ This seperation made the analysis cleaner and allowed dashboards to focus on specific business questions.
 - Data Quality Check: Checked for duplicates and outliers, none were found.
 - Missing values: Only one missing value was found and it was ignored as it did not impact the analysis.
 - Feature Engineering: Calculated KPIs such as Total conversions and cost per acquisition (CPA)
